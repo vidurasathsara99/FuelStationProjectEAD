@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">FuelStationProject</string>
+    <string name="petrol_sheds_near_you">Petrol Sheds Near You</string>
+    <string name="_5">5</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="change_status">Change Status</string>
+    <string name="queue_length">Queue Length</string>
+    <string name="kalutara_petrol_shed">Kalutara Petrol Shed</string>
+    <string name="update_fuel_info">Update Fuel Info</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="edit_contact_info">Edit Contact Info</string>
+    <string name="todo">TODO</string>
 </resources>

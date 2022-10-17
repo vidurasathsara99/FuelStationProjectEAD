@@ -11,32 +11,34 @@
         android:layout_width="363dp"
         android:layout_height="74dp"
         android:backgroundTint="#2196F3"
-        android:text="Sign Out"
+        android:text="@string/sign_out"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.716" />
+        app:layout_constraintVertical_bias="0.716"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="363dp"
         android:layout_height="74dp"
         android:backgroundTint="#2196F3"
-        android:text="Edit Contact Info"
+        android:text="@string/edit_contact_info"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.575" />
+        app:layout_constraintVertical_bias="0.575"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="99dp"
         android:layout_height="33dp"
-        android:text="5"
+        android:text="@string/_5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.725"
@@ -48,7 +50,7 @@
         android:id="@+id/textView9"
         android:layout_width="62dp"
         android:layout_height="57dp"
-        android:text="Queue Length"
+        android:text="@string/queue_length"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.449"
@@ -66,14 +68,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.169"
-        app:srcCompat="@mipmap/shed1" />
+        app:srcCompat="@mipmap/shed1"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="271dp"
         android:layout_height="58dp"
         android:gravity="center"
-        android:text="Kalutara Petrol Shed"
+        android:text="@string/kalutara_petrol_shed"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -86,7 +89,7 @@
         android:id="@+id/textView8"
         android:layout_width="62dp"
         android:layout_height="57dp"
-        android:text="Change Status"
+        android:text="@string/change_status"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.449"
@@ -100,9 +103,9 @@
         android:layout_height="51dp"
         android:backgroundTint="#CCAFAF"
         android:buttonTint="#571616"
-        android:text="ToggleButton"
-        android:textOff="Close"
-        android:textOn="Open"
+        android:text="@string/togglebutton"
+        android:textOff="@string/close"
+        android:textOn="@string/open"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.769"
@@ -115,11 +118,13 @@
         android:layout_width="363dp"
         android:layout_height="74dp"
         android:backgroundTint="#419845"
-        android:text="Update Fuel Info"
+        android:text="@string/update_fuel_info"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.436" />
+        app:layout_constraintVertical_bias="0.436"
+        tools:ignore="TextContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
