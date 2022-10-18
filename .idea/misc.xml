@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/fuel/FuelStationProjectEAD/app/src/main/res/drawable/my_btn_toggle.xml" value="0.225" />
         <entry key="..\:/fuel/FuelStationProjectEAD/app/src/main/res/layout/activity_admin_shed_list.xml" value="0.1" />
         <entry key="..\:/fuel/FuelStationProjectEAD/app/src/main/res/layout/activity_login.xml" value="0.25052083333333336" />
         <entry key="..\:/fuel/FuelStationProjectEAD/app/src/main/res/layout/activity_main.xml" value="0.25052083333333336" />
