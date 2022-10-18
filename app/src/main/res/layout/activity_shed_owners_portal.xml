@@ -118,6 +118,7 @@
         android:layout_width="363dp"
         android:layout_height="74dp"
         android:backgroundTint="@color/green_nw"
+        android:onClick="openUpdateFuel"
         android:text="@string/update_fuel_info"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"

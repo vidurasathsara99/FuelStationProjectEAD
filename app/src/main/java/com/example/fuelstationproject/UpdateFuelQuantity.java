@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class ShedOwnersPortal extends AppCompatActivity {
+public class UpdateFuelQuantity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_shed_owners_portal);
+        setContentView(R.layout.activity_update_fuel_quantity);
     }
 
-    public void openUpdateFuel(View view){
-        Intent intent = new Intent(this,UpdateFuelQuantity.class);
+    public void backToHome(View view){
+        Intent intent = new Intent(this,ShedOwnersPortal.class);
         Bundle b = new Bundle();
         intent.putExtras(b);
         startActivity(intent);
