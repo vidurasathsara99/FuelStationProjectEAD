@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FuelStationProject</string>
+    <string name="app_name">Fuel Buddy</string>
     <string name="petrol_sheds_near_you">Petrol Sheds Near You</string>
     <string name="_5">5</string>
     <string name="open">Open</string>
