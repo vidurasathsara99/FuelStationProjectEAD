@@ -20,4 +20,11 @@ public class ShedOwnersPortal extends AppCompatActivity {
         intent.putExtras(b);
         startActivity(intent);
     }
+
+    public void openSignin(View view){
+        Intent intent = new Intent(this,Login.class);
+        Bundle b = new Bundle();
+        intent.putExtras(b);
+        startActivity(intent);
+    }
 }

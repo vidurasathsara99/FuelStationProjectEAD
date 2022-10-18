@@ -11,6 +11,7 @@
         android:layout_width="363dp"
         android:layout_height="74dp"
         android:backgroundTint="#2196F3"
+        android:onClick="openSignin"
         android:text="@string/sign_out"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
