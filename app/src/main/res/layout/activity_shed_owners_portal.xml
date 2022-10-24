@@ -7,20 +7,6 @@
     tools:context=".ShedOwnersPortal">
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="363dp"
-        android:layout_height="74dp"
-        android:backgroundTint="#2196F3"
-        android:text="@string/edit_contact_info"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.44"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.575"
-        tools:ignore="TextContrastCheck" />
-
-    <Button
         android:id="@+id/button3"
         android:layout_width="363dp"
         android:layout_height="74dp"
@@ -29,9 +15,10 @@
         android:text="@string/sign_out"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.846"
+        app:layout_constraintVertical_bias="0.773"
         tools:ignore="TextContrastCheck" />
 
     <Button
@@ -43,9 +30,10 @@
         android:text="@string/view_current_status"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.713"
+        app:layout_constraintVertical_bias="0.602"
         tools:ignore="TextContrastCheck" />
 
     <TextView
@@ -118,6 +106,7 @@
         android:background="@drawable/my_btn_toggle"
         android:buttonTint="#571616"
         android:text="@string/togglebutton"
+        android:textColor="@color/white"
         android:textOff="@string/close"
         android:textOn="@string/open"
         app:layout_constraintBottom_toBottomOf="parent"
