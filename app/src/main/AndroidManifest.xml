@@ -10,6 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FuelStationProject">
         <activity
+            android:name=".CurrentStatusPage"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".AdminShedList"
             android:exported="true" />
         <activity
@@ -17,7 +24,7 @@
             android:exported="true" />
         <activity
             android:name=".SignUp"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,12 +33,10 @@
         </activity>
         <activity
             android:name=".Login"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".ShedOwnersPortal"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".client.MainActivity"
             android:exported="true" />

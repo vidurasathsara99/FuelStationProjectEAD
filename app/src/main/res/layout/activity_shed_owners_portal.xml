@@ -7,22 +7,7 @@
     tools:context=".ShedOwnersPortal">
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="363dp"
-        android:layout_height="74dp"
-        android:backgroundTint="#2196F3"
-        android:onClick="openSignin"
-        android:text="@string/sign_out"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.44"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.716"
-        tools:ignore="TextContrastCheck" />
-
-    <Button
-        android:id="@+id/button2"
+        android:id="@+id/button4"
         android:layout_width="363dp"
         android:layout_height="74dp"
         android:backgroundTint="#2196F3"
@@ -33,6 +18,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.575"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="363dp"
+        android:layout_height="74dp"
+        android:backgroundTint="#2196F3"
+        android:onClick="openSignin"
+        android:text="@string/sign_out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="363dp"
+        android:layout_height="74dp"
+        android:backgroundTint="#2196F3"
+        android:onClick="openCurrentStatus"
+        android:text="@string/view_current_status"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.713"
         tools:ignore="TextContrastCheck" />
 
     <TextView

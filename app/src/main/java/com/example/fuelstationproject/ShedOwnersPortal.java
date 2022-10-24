@@ -27,4 +27,10 @@ public class ShedOwnersPortal extends AppCompatActivity {
         intent.putExtras(b);
         startActivity(intent);
     }
+    public void openCurrentStatus(View view){
+        Intent intent = new Intent(this,CurrentStatusPage.class);
+        Bundle b = new Bundle();
+        intent.putExtras(b);
+        startActivity(intent);
+    }
 }
